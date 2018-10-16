@@ -35,6 +35,21 @@
 	#2 \\
 \end{tabular*}}
 
+\newcommand{\basicitem}[5]
+{
+	\item
+	\headerrow
+		{\textbf{#1}}
+		{\textbf{#2}}
+	\\
+	\headerrow
+		{\emph{#3}}
+		{\emph{#4}}
+
+	#5
+
+}
+
 % make "C++" look pretty when used in text by touching up the plus signs
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
@@ -60,17 +75,12 @@
 \begin{itemize}
 	\parskip=0.1em
 
-	\item
-	\headerrow
-		{\textbf{Custom-Built Wide Band Radio Telescope}}
-		{\textbf{https://goo.gl/R1gKfy}}
-	\\
-	\headerrow
-		{\emph{Complete}}
-		{\emph{March 2017 - August 2017}}
-	\begin{itemize*}
-		Prototyped a small (~0.5 m) radio telescope, using a unique combination of cutting-edge software defined radio equipment and a repurposed satellite TV dish, attempting to detect electromagnetic phenomena (whistlers) in Jupiter’s magnetosphere.
-	\end{itemize*}
+	\basicitem
+		{Custom-Built Wide Band Radio Telescope}
+		{https://goo.gl/R1gKfy}
+		{Complete}
+		{March 2017 - August 2017}
+		{Prototyped a small (~0.5 m) radio telescope, using a unique combination of cutting-edge software defined radio equipment and a repurposed satellite TV dish, attempting to detect electromagnetic phenomena (whistlers) in Jupiter’s magnetosphere.}
 
 	\item
 	\headerrow
@@ -97,7 +107,6 @@
 	\end{itemize*}
 
 \end{itemize}
-
 
 \hrule
 \vspace{-0.4em}

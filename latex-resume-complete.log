@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.29)  1 JAN 2019 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.29)  13 JAN 2019 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,12 +679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-
- []
-
-
-Overfull \hbox (17.19649pt too wide) in paragraph at lines 312--313
+Overfull \hbox (17.19649pt too wide) in paragraph at lines 304--305
 []\T1/qpl/m/n/10 Soldering/electronics (In-ter-me-di-ate), Ar-duino Uno, Rasp-b
 erry Pi, L[]T[]X(Intermediate) 
  []
@@ -697,12 +692,12 @@ Here is how much of TeX's memory you used:
  5589 multiletter control sequences out of 15000+600000
  33641 words of font info for 26 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,6n,32p,573b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,32p,873b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q
 -ec.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/share/texmf/
 fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-g
 yre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on latex-resume-complete.pdf (3 pages, 96778 bytes).
+Output written on latex-resume-complete.pdf (3 pages, 97260 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
